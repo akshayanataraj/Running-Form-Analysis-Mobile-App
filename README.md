@@ -22,6 +22,8 @@ Run this command in terminal to initialize a react native project file
 
 NOTE: choose blank template to create react environment in javascript
 
+create a python file in the same folder as App.js
+
 App.js consists of the react native code which is the frontend to be displayed on the app. 
 pose_detection.py consists of the python backend code which involves video processing and detection.
 Both above are connected using a Flask API server initialized by the backend and called to the fronted using Axios. Python file is run first then followed by React Native. The server URL will be shown in terminal after running the python file. Terminal command to run:
